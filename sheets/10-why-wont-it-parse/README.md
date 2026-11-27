@@ -6,4 +6,4 @@ The cheat sheet itself is in the book *A Model Universe: Cheat Sheets for SysML 
 
 ## Share your model
 
-Fork this repository, add your model as `submissions/10-why-wont-it-parse/<your GitHub name>/<name>.sysml`, check it with a SysML v2 validator, and open a pull request. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
+Add your own folder, `submissions/10-why-wont-it-parse/<your GitHub name>/`, put your model in it and open a pull request, all in the browser. [CONTRIBUTING.md](../../CONTRIBUTING.md) walks through it step by step with an example, and explains how submissions may be used.

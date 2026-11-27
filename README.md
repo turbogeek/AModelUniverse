@@ -4,6 +4,8 @@ Code, descriptions and cartoons from **A Model Universe**, created by Daniel Bro
 SysML v2 cheat sheets, the newsletters that tell how each one happened, and the lab where Bob,
 SuperBob, the Professor and Algernon the mouse keep getting the notation wrong so you don't have to.
 
+Follow A Model Universe on Daniel's LinkedIn account: https://www.linkedin.com/in/danielbrookshier/
+
 This repository holds the example model behind every cheat sheet, ready to load in your SysML v2 tool,
 and the reader challenges from the newsletters. The sheets and the stories are collected in the book
 **A Model Universe: Cheat Sheets for SysML v2 and the stories behind them**.

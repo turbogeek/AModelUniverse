@@ -12,4 +12,4 @@ The cheat sheet itself is in the book *A Model Universe: Cheat Sheets for SysML 
 
 ## Share your model
 
-Add your own folder, `submissions/17-interfaces/<your GitHub name>/`, put your model in it and open a pull request, all in the browser. [CONTRIBUTING.md](../../CONTRIBUTING.md) walks through it step by step with an example, and explains how submissions may be used.
+Add a folder named with your GitHub ID under `communityModels/`, put your model in it and open a pull request, all in the browser. [CONTRIBUTING.md](../../CONTRIBUTING.md) walks through it step by step with an example, and gives the house rules (funny, valid SysML v2, nothing that would make your mom blush) and how submissions may be used.

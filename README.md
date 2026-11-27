@@ -40,7 +40,7 @@ clause of the SysML v2.1 or KerML specification.
 1. Pick a sheet folder and open its `.sysml` file in your SysML v2 tool, or paste it into a SysML v2 Jupyter notebook.
 2. Render the view at the end of the package and compare it with the cheat sheet.
 3. Do the challenges in the folder's README.
-4. Share your answer: add your own folder under `submissions/` and open a pull request. [CONTRIBUTING.md](CONTRIBUTING.md) shows how, with an example.
+4. Share your answer: add a folder named with your GitHub ID under `communityModels/` and open a pull request. [CONTRIBUTING.md](CONTRIBUTING.md) shows how, with an example.
 
 ## License
 

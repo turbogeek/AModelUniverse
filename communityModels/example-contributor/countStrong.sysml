@@ -1,6 +1,7 @@
 /*
  * Sheet 9, Expressions: EXAMPLE SUBMISSION (shows the format; not a challenge answer)
- * Idea: count the strong beers in Bob's fridge and pick the strongest cold one.
+ * Idea: count the strong beers in Bob's fridge and pick the strongest cold one,
+ *       so Bob can make a fully model-based beverage decision.
  * Author: example-contributor (GitHub)
  * Submitted under CONTRIBUTING.md: may be used, with credit, in A Model Universe books,
  * newsletters and merchandise; otherwise shared under CC BY-NC-SA 4.0.

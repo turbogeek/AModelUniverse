@@ -2,37 +2,61 @@
 
 Every newsletter and every sheet README ends with challenges. Answer one, or model something of your
 own with the same notation, and add it to this repository so other readers can see your work.
-Each contributor gets their own folder under `submissions/`, next to the sheet it belongs to:
+
+Every contributor gets one folder under `communityModels/`, named with their GitHub ID. All of your
+models go in that folder:
 
 ```
-submissions/
-  09-expressions/
-    example-contributor/        <- one folder per contributor, named with your GitHub user name
-      countStrong.sysml
-    your-github-name/           <- yours goes here
-      countWarm.sysml
+communityModels/
+  example-contributor/          <- one folder per contributor, named with the GitHub ID
+    countStrong.sysml
+  your-github-id/               <- yours goes here
+    countWarm.sysml
+    bobsSmartToaster.sysml
 ```
 
-A real example is in [`submissions/09-expressions/example-contributor/`](submissions/09-expressions/example-contributor/countStrong.sysml).
+A real example is in [`communityModels/example-contributor/`](communityModels/example-contributor/countStrong.sysml).
+The header at the top of each file says which sheet and challenge it answers.
+
+## House rules
+
+Every model merged here has to pass three tests:
+
+1. **It's funny.** This is *A Model Universe*: Bob, SuperBob, the Professor, Algernon, beer, toast and
+   questionable engineering decisions. Teach one idea, and make the reader smile while you do it.
+2. **It's correct SysML v2.** It parses against SysML v2.1 and the standard library. Imports carry their
+   visibility (`private import ISQ::*;`, never a bare `import`). Check it with a SysML v2 validator or your
+   tool before you open the pull request.
+3. **It's clean.** Nothing that would make your mom, or Daniel's mom, blush when she reads your code. No
+   profanity, no innuendo, no insults, nothing about real people. Bob can be silly; he can't be naughty.
+
+Also:
+
+- **Your own work.** Submit only models you wrote, or that you have the right to share.
+- **Stay in your folder.** Pull requests that change other contributors' folders or the sheet models are
+  closed; open an issue instead if you found a problem in a sheet.
+
+Pull requests that miss a rule get a friendly comment on what to change. A model that doesn't parse, with
+a good question about why, is still welcome as a question; it gets merged once it parses.
 
 ## Add your folder and model (in the browser, no git needed)
 
-1. **Sign in to GitHub** and open the sheet's folder under [`submissions/`](submissions), for example
-   `submissions/09-expressions`.
+1. **Sign in to GitHub** and open [`communityModels/`](communityModels).
 2. Click **Add file** then **Create new file**.
-3. In the file name box, type your GitHub user name, a slash, and the file name:
-   `your-github-name/countWarm.sysml`. Typing the `/` creates your folder.
+3. In the file name box, type your GitHub ID, a slash, and the file name:
+   `your-github-id/countWarm.sysml`. Typing the `/` creates your folder.
 4. **Paste your model.** Start it with this header so readers know what it is and who wrote it:
 
    ```
    /*
     * Sheet 9, Expressions: challenge 1, countWarm
     * Idea: one or two sentences on what you modeled and anything you learned.
-    * Author: your-github-name (GitHub)
+    * Author: your-github-id (GitHub)
     * Submitted under CONTRIBUTING.md: may be used, with credit, in A Model Universe books,
     * newsletters and merchandise; otherwise shared under CC BY-NC-SA 4.0.
     */
    package YourPackageName {
+     private import ScalarValues::*;
      ...
    }
    ```
@@ -40,27 +64,17 @@ A real example is in [`submissions/09-expressions/example-contributor/`](submiss
    One package per file. Several files in your folder are fine.
 5. Click **Commit changes...**, then **Propose changes**. GitHub keeps a copy of your change under your
    account for you; you don't need to set anything up.
-6. On the next page click **Create pull request**. Title it `09-expressions: countWarm`, fill in the short
-   checklist, and click **Create pull request** again.
+6. On the next page click **Create pull request**. Title it `your-github-id: 09 countWarm`, fill in the
+   short checklist, and click **Create pull request** again.
 
-To add more files to your folder later, repeat the steps with the same folder name. To add files from your
-computer, use **Add file** then **Upload files** inside `submissions/<sheet>/<your-github-name>/`.
+To add more files later, repeat the steps with the same folder name. To add files from your computer,
+open `communityModels/your-github-id/` and use **Add file** then **Upload files**.
 
 ## What happens next
 
-- Your pull request is reviewed. If something does not parse, you'll get a comment on what to change;
-  a model that doesn't parse and a good question about why is still welcome.
-- When it is merged, your folder appears under `submissions/` for everyone to read.
+- Your pull request is reviewed against the house rules.
+- When it is merged, your folder appears under `communityModels/` for everyone to read.
 - The best answers, and the most instructive wrong ones, are featured in future newsletters.
-
-## Ground rules
-
-- **Your own work.** Submit only models you wrote, or that you have the right to share.
-- **Check it first.** Run it through a SysML v2 validator or load it in your tool, and say in the pull
-  request if anything is still broken.
-- **Stay in your folder.** Pull requests that change other contributors' folders or the sheet models are
-  closed; open an issue instead if you found a problem in a sheet.
-- **Be friendly and on topic.** Bob makes the mistakes here, not the readers.
 
 ## How your work may be used
 

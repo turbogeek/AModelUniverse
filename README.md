@@ -31,6 +31,7 @@ and the reader challenges from the newsletters. The sheets and the stories are c
 | [`sheets/16-space-time`](sheets/16-space-time) | 16: space and time (Bob lands on the Moon) | `BobOnTheMoon` |
 | [`sheets/17-interfaces`](sheets/17-interfaces) | 17: inside an interface (Bob pulls the plug) | `BobsBlackout` |
 | [`sheets/18-no-definition`](sheets/18-no-definition) | 18: when there is no def (where's the def?) | `WhereIsTheDef` |
+| [`sheets/19-attributes`](sheets/19-attributes) | 19: attributes on their own (Bob's beer belly) | `BobsBeerBelly` |
 
 Every model is the code printed on its cheat sheet, followed by a view your tool can render. Each one
 passes a SysML v2 syntax validator against the standard library, and every keyword traces to a numbered

@@ -13,7 +13,9 @@ and the reader challenges from the newsletters. The sheets and the stories are c
 | Folder | Sheet | Package |
 | --- | --- | --- |
 | [`sheets/01-02-basics-and-beyond`](sheets/01-02-basics-and-beyond) | 1 and 2: the basics, beyond the basics | `CheatSheetExamples` |
+| [`sheets/03-requirements`](sheets/03-requirements) | 3: requirements | `RequirementsExamples` |
 | [`sheets/04-validation-patterns`](sheets/04-validation-patterns) | 4: validation patterns | `ValidationPatterns` |
+| [`sheets/05-states`](sheets/05-states) | 5: states (Bob goes super) | `BobStates` |
 | [`sheets/06-actions`](sheets/06-actions) | 6: actions and swimlanes (Bob plays pickleball) | `BobsPickleball` |
 | [`sheets/07-colon-family`](sheets/07-colon-family) | 7: the colon family | `TheColonFamily` |
 | [`sheets/08-quantities-units`](sheets/08-quantities-units) | 8: quantities and units | `SuperBobsUnits` |
@@ -26,8 +28,6 @@ and the reader challenges from the newsletters. The sheets and the stories are c
 | [`sheets/15-variants`](sheets/15-variants) | 15: variants and variations | `BobsPizzaFamily` |
 | [`sheets/16-space-time`](sheets/16-space-time) | 16: space and time (Bob lands on the Moon) | `BobOnTheMoon` |
 | [`sheets/17-interfaces`](sheets/17-interfaces) | 17: inside an interface (Bob pulls the plug) | `BobsBlackout` |
-
-Sheets 3 (requirements) and 5 (states) are coming soon.
 
 Every model is the code printed on its cheat sheet, followed by a view your tool can render. Each one
 passes a SysML v2 syntax validator against the standard library, and every keyword traces to a numbered
